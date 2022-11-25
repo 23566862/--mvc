@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--configuration核心配置文件-->
+<configuration>
+
+    <settings>
+        <!--设置log value：标准的控制台输出lgo日志-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--<setting name="logImpl" value="LOG4J"/>-->
+        <!--开启全局缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <package name="pojo"/>
+    </typeAliases>
+    <mappers>
+        <mapper class="dao.userMapper"/>
+        <mapper class="dao.roleMapper"/>
+    </mappers>
+</configuration>

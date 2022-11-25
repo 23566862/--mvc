@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="超市管理系统-springMVC版:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b7d794d-9dc0-4056-b23a-69e3a9fc34ea" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="smbms: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="smbms: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="smbms_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="超市管理系统-springMVC版" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tn7EjcnqMxC6xrmwiLAsKlix63" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/smbms-mvc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25574976" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86151\IdeaProjects\超市管理系统-springMVC版\src\main\resources" />
+      <recent name="C:\Users\86151\IdeaProjects\超市管理系统-springMVC版\src\main\java\pojo" />
+      <recent name="C:\Users\86151\IdeaProjects\超市管理系统-springMVC版\web" />
+      <recent name="C:\Users\86151\IdeaProjects\超市管理系统-springMVC版\web\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86151\IdeaProjects\超市管理系统-springMVC版\src\main\java\dao" />
+      <recent name="C:\Users\86151\IdeaProjects\超市管理系统-springMVC版\web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.43">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="超市管理系统-springMVC版" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.aa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="超市管理系统-springMVC版" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="aa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.sda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="超市管理系统-springMVC版" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="sda" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.sda1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="超市管理系统-springMVC版" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="sda1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <deployment>
+        <artifact name="超市管理系统-springMVC版:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_超市管理系统-springMVC版" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61696" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="超市管理系统-springMVC版:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="JUnit.test.sda" />
+      <item itemvalue="JUnit.test.sda1" />
+      <item itemvalue="JUnit.test.aa" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.43" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.sda" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.test.aa" />
+        <item itemvalue="JUnit.test.sda1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="完成" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b7d794d-9dc0-4056-b23a-69e3a9fc34ea" name="默认更改列表" comment="" />
+      <created>1623392889736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623392889736</updated>
+      <workItem from="1623392890966" duration="4750000" />
+      <workItem from="1623668258224" duration="5465000" />
+      <workItem from="1623714360113" duration="1851000" />
+      <workItem from="1623753220261" duration="6980000" />
+      <workItem from="1623800847659" duration="95000" />
+      <workItem from="1623801313376" duration="90000" />
+      <workItem from="1623801506257" duration="442000" />
+      <workItem from="1623805561518" duration="2734000" />
+      <workItem from="1623827963396" duration="1149000" />
+      <workItem from="1623841590325" duration="4756000" />
+      <workItem from="1623913381663" duration="1227000" />
+      <workItem from="1623974821647" duration="9851000" />
+      <workItem from="1624405527976" duration="1079000" />
+      <workItem from="1624408144522" duration="37000" />
+      <workItem from="1624408211919" duration="14000" />
+      <workItem from="1624409120286" duration="21000" />
+      <workItem from="1624578876682" duration="873000" />
+      <workItem from="1624841174968" duration="1431000" />
+      <workItem from="1625010796934" duration="3566000" />
+      <workItem from="1625034350179" duration="2575000" />
+      <workItem from="1625053139382" duration="2240000" />
+      <workItem from="1625097804078" duration="882000" />
+      <workItem from="1625187157414" duration="32000" />
+      <workItem from="1625489408254" duration="691000" />
+      <workItem from="1625531995792" duration="2397000" />
+      <workItem from="1626137673234" duration="352000" />
+      <workItem from="1626138041307" duration="127000" />
+      <workItem from="1626268022388" duration="499000" />
+      <workItem from="1626574216061" duration="14000" />
+      <workItem from="1626574771039" duration="349000" />
+      <workItem from="1626575254629" duration="615000" />
+      <workItem from="1627519483007" duration="9280000" />
+      <workItem from="1627604943384" duration="7034000" />
+      <workItem from="1627698589817" duration="6145000" />
+      <workItem from="1627705082468" duration="502000" />
+      <workItem from="1627777653542" duration="184000" />
+      <workItem from="1627785934164" duration="181000" />
+      <workItem from="1627860173104" duration="620000" />
+      <workItem from="1627860976041" duration="1263000" />
+      <workItem from="1628131946076" duration="14000" />
+      <workItem from="1628315089886" duration="29000" />
+      <workItem from="1628559492221" duration="56000" />
+      <workItem from="1628998152683" duration="136000" />
+      <workItem from="1628998426433" duration="91000" />
+      <workItem from="1628998710020" duration="1535000" />
+      <workItem from="1629249724293" duration="222000" />
+      <workItem from="1629251660760" duration="628000" />
+      <workItem from="1632451684123" duration="294000" />
+      <workItem from="1632452537553" duration="643000" />
+      <workItem from="1632793593992" duration="1358000" />
+      <workItem from="1632878287946" duration="3503000" />
+      <workItem from="1632895776517" duration="11000" />
+      <workItem from="1634866859575" duration="16000" />
+      <workItem from="1634869513484" duration="306000" />
+      <workItem from="1634869944790" duration="605000" />
+      <workItem from="1634871693427" duration="219000" />
+      <workItem from="1634873736966" duration="390000" />
+      <workItem from="1635059788429" duration="441000" />
+      <workItem from="1636865836954" duration="1061000" />
+      <workItem from="1637913537547" duration="102000" />
+      <workItem from="1638259716840" duration="1358000" />
+      <workItem from="1638320353258" duration="1215000" />
+      <workItem from="1638326209935" duration="1024000" />
+      <workItem from="1638335290265" duration="1316000" />
+      <workItem from="1638432400430" duration="956000" />
+      <workItem from="1639573340589" duration="21000" />
+      <workItem from="1663378299181" duration="32000" />
+      <workItem from="1664000778412" duration="128000" />
+      <workItem from="1664176673157" duration="327000" />
+      <workItem from="1664179017338" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="409" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664179036591">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="409" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1020@0.0.1920.1020" timestamp="1664179036591" />
+    <state width="1278" height="403" key="GridCell.Tab.0.bottom" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.0.center" timestamp="1664179343404">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.0.center/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343404" />
+    <state width="1278" height="403" key="GridCell.Tab.0.left" timestamp="1664179343404">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.0.left/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343404" />
+    <state width="1278" height="403" key="GridCell.Tab.0.right" timestamp="1664179343404">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.0.right/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343404" />
+    <state width="1278" height="403" key="GridCell.Tab.1.bottom" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.1.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.1.center" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.1.center/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.1.left" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.1.left/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.1.right" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.1.right/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.2.bottom" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.2.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.2.center" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.2.center/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.2.left" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.2.left/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+    <state width="1278" height="403" key="GridCell.Tab.2.right" timestamp="1664179343405">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1278" height="403" key="GridCell.Tab.2.right/0.0.1920.1020@0.0.1920.1020" timestamp="1664179343405" />
+  </component>
+</project>

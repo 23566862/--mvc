@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--configuration核心配置文件-->
+<!--namespace=""绑定作用域-->
+<mapper namespace="dao.roleMapper">
+    <select id="getRoleList" resultType="role">
+        select  * from smbms.smbms_role
+    </select>
+
+</mapper>

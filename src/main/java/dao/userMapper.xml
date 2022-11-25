@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--configuration核心配置文件-->
+        <!--namespace=""绑定作用域-->
+<mapper namespace="dao.userMapper">
+    <!--登入sql-->
+    <select id="getLoginUser"  resultType="user" >
+    select * from smbms.smbms_user where userCode=#{userCode} and userPassword=#{userPassword}
+    </select>
+    <!--修改密码sql-->
+    <update id="updatePassword" >
+    update smbms.smbms_user set userPassword=#{newPassword} where id=#{id};
+    </update>
+
+    <!--查询用户总数-->
+    <select id="userCount" resultType="_int">
+        select count(1) as count from smbms.smbms_user u,smbms.smbms_role r
+        <where>
+        <if test="'1'=='1'">
+            and u.userRole =r.id
+        </if>
+        <if test="userName !=null and userName.length>0">
+            and u.userName like CONCAT('%',#{userName,jdbcType=VARCHAR},'%')
+        </if>
+        <if test="userRole >0">
+            and u.userRole=#{userRole}
+        </if>
+        </where>
+    </select>
+
+    <select id="getUser" resultType="user">
+        select * from smbms.smbms_user
+    </select>
+
+    <select id="getUserList" resultType="user">
+        select u.id,
+        u.userCode,
+        u.userName,
+        u.userPassword,
+        u.gender,
+        date_format(u.birthday, '%Y-%m-%d') birthday,
+        u.phone,
+        u.address,
+        u.userRole,
+        u.createdBy,
+        u.creationDate,
+        u.modifyBy,
+        u.modifyDate,
+        r.roleName as userRoleName
+        from smbms_user u,
+        smbms_role r
+        <where>
+            <if test="'1'=='1'">
+                and u.userRole = r.id
+            </if>
+            <if test="userName != null and userName.length>0">
+                and u.userName like concat('%',#{userName},'%')
+            </if>
+            <if test="userRole > 0">
+                and u.userRole = #{userRole}
+            </if>
+        </where>
+        order by creationDate DESC limit #{currentPageNo},#{pageSize}
+    </select>
+
+    <select id="getIsCodeUser" resultType="user">
+        select * from  smbms.smbms_user  where userCode=#{userCode}
+    </select>
+</mapper>

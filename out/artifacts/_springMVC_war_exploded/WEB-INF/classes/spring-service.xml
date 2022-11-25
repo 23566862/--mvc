@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx.xsd
+    http://www.springframework.org/schema/context
+    https://www.springframework.org/schema/context/spring-context.xsd"
+>
+
+    <!-- 扫描service相关的bean -->
+    <context:component-scan base-package="service" />
+    <context:component-scan base-package="util"/>
+    <bean name="BookServiceImp" class="service.userServiceImp">
+        <property name="userMapper" ref="userMapper"></property>
+    </bean>
+    <bean name="roleServiceImp" class="service.roleServiceImp">
+        <property name="roleMapper" ref="roleMapper"></property>
+    </bean>
+    <!--创建事务-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 配置事务-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="NESTED"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--配置事务切换-->
+    <aop:config>
+        <aop:pointcut id="txPointcut" expression="execution(* dao.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
+    </aop:config>
+
+    <!--指定要扫描的包，这个包下的注解就会生效-->
+    <context:component-scan base-package="dao"/>
+    <context:annotation-config/>
+
+</beans>
